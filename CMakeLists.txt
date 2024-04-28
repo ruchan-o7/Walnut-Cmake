@@ -10,6 +10,7 @@ set(STB_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/vendor/stb_image")
 set(IMGUI_INCLUDE_DIR "${CMAKE_SOURCE_DIR}/vendor/imgui")
 
 set(VULKAN_LIB "${Vulkan_LIBRARIES}")
-
+add_subdirectory(vendor/glfw)
+add_subdirectory(vendor/glm)
 add_subdirectory(Walnut)
 add_subdirectory(WalnutApp)
