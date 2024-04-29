@@ -1,6 +1,6 @@
 #include "Input.h"
 
-#include "Walnut/Application.h"
+#include "../Application.h"
 
 #include <GLFW/glfw3.h>
 
